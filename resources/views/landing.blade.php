@@ -84,7 +84,7 @@
             <div class="container relative py-[100px]">
                 <header class="mb-[30px]">
                     <h2 class="font-bold text-dark text-[26px] mb-1">
-                        Popular Cars
+                        Popular Cars2
                     </h2>
                     <p class="text-base text-secondary">Start your big day</p>
                 </header>
