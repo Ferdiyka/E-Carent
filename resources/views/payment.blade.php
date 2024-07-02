@@ -140,5 +140,10 @@
     $('#checkoutButton').click(function() {
       $('#checkoutForm').submit();
     });
+
+     // Jika pembayaran sukses, redirect ke halaman success
+    @if ($booking->payment_status == 'success')
+    window.location.href = "{{ route('front.payment.success') }}";
+    @endif
   </script>
 </x-front-layout>

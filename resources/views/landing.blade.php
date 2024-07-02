@@ -67,7 +67,7 @@
                         @if ($item->id == 6)
                             <a href="{{ route('front.detail', $item->slug) }}" class="btn-primary">
                             <p>
-                                Rent Now
+                                Rent
                             </p>
                             <img src="/svgs/ic-arrow-right.svg" alt="">
                         </a>
@@ -308,7 +308,7 @@
                     <div class="p-1 rounded-full bg-primary group w-max">
                         <a href="{{route('front.catalog')}}" class="btn-primary">
                             <p>
-                                Explore Now
+                                Explore
                             </p>
                             <img src="/svgs/ic-arrow-right.svg" alt="">
                         </a>

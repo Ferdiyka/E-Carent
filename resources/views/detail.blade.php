@@ -248,7 +248,7 @@
             </div>
         </section>
 
-        <script src="https://unpkg.com/vue@next/dist/vue.global.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.6/vue.global.js"></script>
         <script>
             const { createApp } = Vue
             createApp({
